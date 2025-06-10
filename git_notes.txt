@@ -1,3 +1,25 @@
+# Creating a local get repository
+git init
+
+# Staging a new or changed file
+git add .
+# Commiting new changes
+git commit -m "Initial commit"
+# Creating main branch
+git branch -M main
+# Connecting to the remote repository
+git remote add origin <insert URL>
+
+
+# Local branch connecting to main branch
+git push --set-upstream origin main
+# Pushing to repository
+
+git push
+
+
+
+
 #Pushing everything to remote repository
 git add --all
 git commit -m "new changes"
