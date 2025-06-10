@@ -11,6 +11,8 @@ git branch -M main
 git remote add origin <insert URL>
 
 
+# if you aready have files might need to do the following
+git pull origin main
 # Local branch connecting to main branch
 git push --set-upstream origin main
 # Pushing to repository
